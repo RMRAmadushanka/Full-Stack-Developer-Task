@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import OurSpeakers from "./components/OurSpeakers";
 import RegisterNow from "./components/RegisterNow";
-
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <AboutFinastra/>
       <RegisterNow/>
       <Footer/>
+      <ToastContainer/>
     </div>
   );
 }
