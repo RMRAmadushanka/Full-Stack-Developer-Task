@@ -4,6 +4,7 @@ import EventOverview from "./components/EventOverview";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import OurSpeakers from "./components/OurSpeakers";
+import RegisterNow from "./components/RegisterNow";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <OurSpeakers/>
       <Agenda/>
       <AboutFinastra/>
+      <RegisterNow/>
     </div>
   );
 }
