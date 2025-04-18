@@ -1,3 +1,4 @@
+import AboutFinastra from "./components/AboutFinastra";
 import Agenda from "./components/Agenda";
 import EventOverview from "./components/EventOverview";
 import Header from "./components/Header";
@@ -13,6 +14,7 @@ function App() {
       <EventOverview/>
       <OurSpeakers/>
       <Agenda/>
+      <AboutFinastra/>
     </div>
   );
 }
