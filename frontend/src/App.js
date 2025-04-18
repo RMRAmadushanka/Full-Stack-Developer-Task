@@ -1,3 +1,4 @@
+import EventOverview from "./components/EventOverview";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header/>
       <Hero/>
+      <EventOverview/>
     </div>
   );
 }
