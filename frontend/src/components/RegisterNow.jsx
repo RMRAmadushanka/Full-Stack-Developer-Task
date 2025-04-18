@@ -46,7 +46,7 @@ const RegisterNow = () => {
         onSubmit: async (values, { resetForm }) => {
             try {
                 const { terms, ...formData } = values;
-                const response = await axios.post('http://localhost:5000/api/register', formData);
+                const response = await axios.post('https://backend-full-stack-psi.vercel.app/api/register', formData);
                 toast.success(response.data)
                 resetForm();
             } catch (err) {
