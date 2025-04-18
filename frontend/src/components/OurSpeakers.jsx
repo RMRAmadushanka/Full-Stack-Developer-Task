@@ -31,10 +31,10 @@ const OurSpeakers = () => {
     { name: "Ms. Heba Yehia", title: "Head of Digital Products", company: "Arab African International Bank", image: Speaker9 },
     { name: "Mr. Hamid Nirouzad", title: "Managing Director - Africa", company: "Finastra Universal", image: Speaker10 },
     { name: "Mr. Rudy Kawmi", title: "Managing Director - Middle East, Africa & Asia-Pacific", company: "Finastra Universal Banking", image: Speaker11 },
-    { name: "Mr. Daragh O'Byrne", title: "Senior Director, Marketing", company: "Finastra Universal Banking", image: Speaker12 },
-    { name: "Dr. Ismail Ali", title: "Co-Founder and CEO", company: "CARTTech", image: Speaker13 },
-    { name: "Mr. Matthew Hughes", title: "Head of FSRL International Markets", company: "Atos", image: Speaker14 },
-    { name: "Ms. Riham Muhammad", title: "Corporate CEX Senior Analyst", company: "FABMIRS", image: Speaker15 },
+    { name: "Mr. Matthew Hughes", title: "Head of FS&I, International Markets Atos", company: "Finastra Universal Banking", image: Speaker12 },
+    { name: "Mr. Daragh O'Byrne", title: "Senior Director Marketing Universal Banking, Finastra", company: "CARTTech", image: Speaker13 },
+    { name: "Dr. Ismail Ali", title: "Co-Founder and CEO of CARITech", company: "Atos", image: Speaker14 },
+    { name: "Ms. Riham Muhammad", title: "Corporate CEX Senior Analyst FABMISR", company: "FABMIRS", image: Speaker15 },
   ];
 
   const lastThreeSpeakers = speakers.slice(-3);

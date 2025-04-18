@@ -34,8 +34,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center md:items-end md:w-1/2">
-          <div className="space-y-6 w-full md:w-auto text-left">
+        <div className="flex flex-col items-center md:items-end md:w-1/2 text-center md:text-left">
+          <div className="space-y-6 w-full md:w-auto">
             <div className="space-y-1">
             <h4 className="text-xl font-semibold mb-4 w-full ">Our Office</h4>
               <p className="flex items-center text-sm text-gray-300">
