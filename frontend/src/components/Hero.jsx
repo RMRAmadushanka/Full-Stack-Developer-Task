@@ -8,8 +8,8 @@ const Hero = () => {
                 backgroundImage: `url(${bgHeroImage})`,
             }}
         >
-            <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-purple-900/70 to-purple-900/90 blur-2xl opacity-80"></div>
-            <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-16 sm:py-24 md:py-32">
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-purple-900/90 blur-2xl opacity-80"></div>
+          <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-16 sm:py-24 md:py-32">
                 <p className="text-lg text-gray-300 mb-2">Organized By</p>
                 <h2 className="text-7xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 mb-6 sm:mb-8  ">
                     FINASTRA
