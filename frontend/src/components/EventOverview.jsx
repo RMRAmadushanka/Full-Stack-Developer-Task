@@ -33,7 +33,6 @@ const EventOverview = () => {
               viewport={{ once: false, amount: 0.5 }} >
               Event Overview
             </motion.h2>
-  
             <motion.p className="text-lg sm:text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed" initial="hidden"
               whileInView="visible"
               variants={headingAnimation}
