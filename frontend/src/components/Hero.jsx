@@ -8,7 +8,7 @@ const Hero = () => {
       className="relative bg-black text-white min-h-screen flex items-center justify-center overflow-hidden"
       aria-label="Event introduction"
     >
-      {/* Background Image with Fallbacks */}
+
       <div className="absolute inset-0">
         <img 
           src={bgHeroImage} 
