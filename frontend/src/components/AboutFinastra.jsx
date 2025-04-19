@@ -9,7 +9,7 @@ const AboutFinastra = () => {
 
   return (
     <section className="bg-black text-white py-12 px-6">
-      {/* Title */}
+      <div className="max-w-7xl mx-auto w-full text-center">
       <motion.h2
         className="text-4xl font-bold text-center mb-6"
         variants={fadeInUp}
@@ -20,8 +20,6 @@ const AboutFinastra = () => {
       >
         About Finastra
       </motion.h2>
-
-      {/* Description */}
       <motion.p
         className="text-lg leading-relaxed mb-6"
         variants={fadeInUp}
@@ -32,8 +30,6 @@ const AboutFinastra = () => {
       >
         Finastra is a global provider of financial services software applications across Lending, Payments, Treasury and Capital Markets, and Universal (retail and digital) Banking. Committed to unlocking the potential of people, businesses, and communities everywhere, its vision is to accelerate the future of Open Finance through technology and collaboration, and its pioneering approach is why it is trusted by ~8,100 financial institutions, including 45 of the world’s top 50 banks.
       </motion.p>
-
-      {/* Call to Action */}
       <motion.p
         className="text-center text-sm text-gray-400"
         variants={fadeInUp}
@@ -47,6 +43,7 @@ const AboutFinastra = () => {
           www.finastra.com
         </a>
       </motion.p>
+      </div>
     </section>
   );
 };

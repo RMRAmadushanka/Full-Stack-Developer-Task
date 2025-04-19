@@ -67,7 +67,7 @@ const Hero = () => {
         >
           <a
             href="#register"
-            className="px-6 py-3 text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-base md:text-lg font-medium hover:from-pink-600 hover:to-purple-600 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-50"
+            className="px-6 py-3 text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-base md:text-lg font-medium hover:from-pink-600 hover:to-purple-600 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-50 lg:hidden"
           >
             Register Now
           </a>
