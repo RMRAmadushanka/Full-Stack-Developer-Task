@@ -58,7 +58,7 @@ const RegisterNow = () => {
     });
 
     return (
-        <section className="bg-gradient-to-r from-pink-500 to-purple-500 py-16 px-6">
+        <section className="bg-gradient-to-r from-pink-500 to-purple-500 py-16 px-6" id="register">
             <motion.div
                 className="text-center mb-8"
                 variants={fadeInUp}

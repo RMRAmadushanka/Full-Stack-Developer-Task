@@ -5,3 +5,7 @@
 body {
     @apply font-poppins;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
